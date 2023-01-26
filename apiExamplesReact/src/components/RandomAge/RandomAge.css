@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(to right, #e1eec3, #f05053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.randomAge{
+    width: 30%;
+    margin: 0 auto;
+}
+.randomAge .top{
+    margin: 1rem 0;
+    display: flex;
+}
+.randomAge h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    color: #6d2829;
+    margin-top: 3rem;
+}
+.top input{
+    flex-grow: 1;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #6d2829;
+    color: #6d2829;
+    outline: none;
+    font-size: 16px;
+}
+.top button{
+    width: 80px;
+    font-size: 16px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color:  #6d2829;
+    border: none;
+    transition: .5s;
+}
+.top button:hover{
+    background-color:  #a83e40;
+}
+.details {
+    background-color: #fff;
+    padding:10px;
+    border: 1px solid #6d2829;
+}
+.details p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #6d2829;
+    text-align: left;
+    margin-bottom: 10px;
+}

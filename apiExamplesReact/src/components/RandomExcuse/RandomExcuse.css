@@ -1,0 +1,30 @@
+.RandomExcuse h1{
+    margin-top: 4rem;
+    color:  rgb(100, 156, 175);
+    font-size: 40px;
+}
+
+.RandomExcuse p{
+    color:  rgb(39, 61, 69);
+    font-size: 20px;
+}
+.allBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allBtn button{
+   margin: 5px 0;
+   width: 150px;
+   height: 50px;
+   background-color: rgb(129, 198, 221);
+   color: #fff;
+   font-size: 18px;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   transition: .6s;
+}
+.allBtn button:hover{
+    background-color: rgb(101, 155, 173);
+ }
